@@ -1,0 +1,2013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3rdparty\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-gdef.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-gpos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-gsub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-impl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-open.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-shaper-all.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\harfbuzz\src\harfbuzz-stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_byte_order.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_chartables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_compile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_dfa_exec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_exec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_fullinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_get.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_jit_compile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_maketables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_newline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_ord2utf16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_refcount.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_string_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_study.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_ucd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_utf16_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_valid_utf16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_version.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\pcre\pcre16_xclass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qabstractanimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qabstracteventdispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qabstractfileengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qabstractitemmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qabstractnativeeventfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qabstractproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qabstractstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qabstracttransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qanimationgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qarraydata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qatomic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qbasictimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qbitarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qbytearray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qbytearraymatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcollator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcommandlineoption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcommandlineparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcontiguouscache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qcoreapplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qcoreapplication_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qcoreevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qcoreglobaldata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcryptographichash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qdatastream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qdataurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qdatetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qdatetimeparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qdebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qdir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qdiriterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qeasingcurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qelapsedtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qelapsedtimer_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qelfparser_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qeventdispatcher_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qeventloop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qeventtransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qexception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qfactoryloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfiledevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfileselector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemengine_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystementry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemiterator_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemwatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemwatcher_polling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfilesystemwatcher_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qfinalstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qfreelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfsfileengine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfsfileengine_iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qfsfileengine_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qfutureinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qfuturewatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qglobal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qglobalstatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qharfbuzz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qhash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qhistorystate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qidentityproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qiodevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qipaddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qisciicodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qitemselectionmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsonarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsondocument.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsonobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsonparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsonvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json\qjsonwriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qlatincodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qlibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qlibrary_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qlibraryinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qlinkedlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qlocale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qlocale_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qlocale_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qlockfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qlockfile_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qlogging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qloggingcategory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qloggingregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qmachparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qmalloc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qmargins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qmessageauthenticationcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qmetaobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qmetaobjectbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qmetatype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qmimedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimedatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimeglobpattern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimemagicrule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimemagicrulematcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimeprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimetype.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mimetypes\qmimetypeparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qmutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qmutexpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qnoncontiguousbytedevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global\qnumeric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qobjectcleanuphandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qparallelanimationgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qpauseanimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qpluginloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qpointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qprocess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qprocess_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qpropertyanimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qreadwritelock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qrect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qrefcount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qregexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qregularexpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qresource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qresource_iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qresultstore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qrunnable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qsavefile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qsemaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qsequentialanimationgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qsettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qsettings_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qshareddata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsharedmemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsharedmemory_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qsharedpointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsignalmapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qsignaltransition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qsimd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qsize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsocketnotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qsortfilterproxymodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qstandardpaths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qstandardpaths_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="statemachine\qstatemachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qstringbuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qstringlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="itemmodels\qstringlistmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsystemerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\qsystemlibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsystemsemaphore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qsystemsemaphore_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qtemporarydir.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qtemporaryfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qtextboundaryfinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qtextcodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qtextstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qthread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qthread_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qthreadpool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qthreadstorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qtimeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qtimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qtimezone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qtimezoneprivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qtimezoneprivate_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qtldurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qtranslator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qtsciicodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qunicodetools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qurl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qurlidna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qurlquery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qurlrecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qutfcodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin\quuid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qvariant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="animation\qvariantanimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qvector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qvsnprintf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread\qwaitcondition_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qwindowspipereader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qwindowspipewriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\qwineventnotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="io\qwinoverlappedionotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\qxmlstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\qxmlutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\qcollator_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qsimplecodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qgb18030codec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qjpunicode.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qeucjpcodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qjiscodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qsjiscodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qeuckrcodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qbig5codec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qwindowscodec.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\3rdparty\harfbuzz\src\harfbuzz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qabstractanimation.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="animation\qabstractanimation_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kernel\qabstracteventdispatcher.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qabstracteventdispatcher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qabstractfileengine_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="itemmodels\qabstractitemmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="itemmodels\qabstractitemmodel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qabstractnativeeventfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="itemmodels\qabstractproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="itemmodels\qabstractproxymodel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="statemachine\qabstractstate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qabstractstate_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="statemachine\qabstracttransition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qabstracttransition_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qalgorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qanimationgroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="animation\qanimationgroup_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qarraydata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qarraydataops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qarraydatapointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_alpha.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_armv5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_armv6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_armv7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_bfin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_bootstrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_cxx11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_gcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_ia64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_mips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_msvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_power.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_s390.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_sh4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_sparc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="arch\qatomic_x86.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qbasicatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qbasictimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qbitarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qbuffer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qbytearray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qbytearraymatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qbytedata_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcollator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcollator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcommandlineoption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcommandlineparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qcompilerdetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcontainerfwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcontiguouscache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qcoreapplication.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qcoreapplication_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qcorecmdlineargs_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qcoreevent.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qcoreglobaldata_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qcryptographichash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdatastream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdatastream_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdataurl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qdatetime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qdatetime_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qdatetimeparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdir_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qdiriterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tools\qeasingcurve.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qelapsedtimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\qelfparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qendian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qeventdispatcher_win_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kernel\qeventloop.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="statemachine\qeventtransition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qeventtransition_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qexception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\qfactoryinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="plugin\qfactoryloader_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qfiledevice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qfiledevice_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfileinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfileinfo_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qfileselector.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qfileselector_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfilesystemengine_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfilesystementry_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfilesystemiterator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfilesystemmetadata_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qfilesystemwatcher.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qfilesystemwatcher_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qfilesystemwatcher_polling_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qfilesystemwatcher_win_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="statemachine\qfinalstate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="global\qflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qfreelist_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfsfileengine_iterator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qfsfileengine_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qfunctions_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qfuture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qfutureinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qfutureinterface_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qfuturesynchronizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="thread\qfuturewatcher.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="thread\qfuturewatcher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qgenericatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qglobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qglobalstatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qharfbuzz_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="statemachine\qhistorystate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qhistorystate_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qicucodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="itemmodels\qidentityproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qiodevice.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qiodevice_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qipaddress_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qisciicodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qisenum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="itemmodels\qitemselectionmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="itemmodels\qitemselectionmodel_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qiterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjson_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsonarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsondocument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsonobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsonparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsonvalue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json\qjsonwriter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qlatincodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="plugin\qlibrary.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="plugin\qlibrary_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qlibraryinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qlinkedlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tools\qlocale.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qlocale_data_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qlocale_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qlocale_tools_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qlockfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qlockfile_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qlogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qloggingcategory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qloggingcategory_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qloggingregistry_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\qmachparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qmargins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qmessageauthenticationcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetaobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetaobject_moc_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetaobject_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetaobjectbuilder_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetatype_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qmetatypeswitcher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qmimedata.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="mimetypes\qmimedatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimedatabase_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimeglobpattern_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimemagicrule_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimemagicrulematcher_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimeprovider_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimetype_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mimetypes\qmimetypeparser_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qmutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qmutex_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qmutexpool_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="global\qnamespace.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qnoncontiguousbytedevice_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="global\qnumeric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qnumeric_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qobject.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qobject_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qobject_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qobjectcleanuphandler.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qobjectdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qobjectdefs_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qoldbasicatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qorderedmutexlocker_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qpair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qparallelanimationgroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="animation\qparallelanimationgroup_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qpauseanimation.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="plugin\qplugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="plugin\qpluginloader.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qpodlist_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qprocess.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qprocess_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qprocessordetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qpropertyanimation.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="animation\qpropertyanimation_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qqueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qreadwritelock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qreadwritelock_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qrect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qrefcount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qregexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qregularexpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qresource_iterator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qresource_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qresultstore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qringbuffer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qrunnable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qsavefile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qscopedpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qscopedpointer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qscopedvaluerollback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qsemaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qsequentialanimationgroup.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="animation\qsequentialanimationgroup_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qsettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qsettings_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qshareddata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qsharedmemory.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qsharedmemory_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qsharedpointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qsharedpointer_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="statemachine\qsignaleventgenerator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qsignalmapper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="statemachine\qsignaltransition.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qsignaltransition_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qsimd_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qsize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qsocketnotifier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="itemmodels\qsortfilterproxymodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qstandardpaths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="statemachine\qstate.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qstate_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="statemachine\qstatemachine.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="statemachine\qstatemachine_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qstringbuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qstringlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="itemmodels\qstringlistmodel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qstringmatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qsysinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qsystemdetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qsystemerror_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\qsystemlibrary_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qsystemsemaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qsystemsemaphore_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="global\qt_pch.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qtemporarydir.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qtemporaryfile.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="io\qtemporaryfile_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qtextboundaryfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qtextcodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qtextcodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qtextstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qtextstream_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="thread\qthread.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="thread\qthread_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="thread\qthreadpool.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="thread\qthreadpool_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qthreadstorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="tools\qtimeline.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kernel\qtimer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="tools\qtimezone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qtimezoneprivate_data_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qtimezoneprivate_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qtldurl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="kernel\qtranslator.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="kernel\qtranslator_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qtsciicodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qtypeinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global\qtypetraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qunicodetables_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qunicodetools_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qurl_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qurlquery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="io\qurltlds_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qutfcodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin\quuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qvariant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\qvariant_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="animation\qvariantanimation.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="animation\qvariantanimation_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qvarlengtharray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\qvector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread\qwaitcondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="io\qwindowspipereader_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qwindowspipewriter_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="kernel\qwineventnotifier.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="io\qwinoverlappedionotifier_p.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="xml\qxmlstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\qxmlstream_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\qxmlutils_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qsimplecodec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qgb18030codec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qeucjpcodec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qjiscodec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qsjiscodec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qeuckrcodec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qbig5codec_p.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".moc\debug\moc_qabstractanimation_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qabstractanimation_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qabstracteventdispatcher.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qabstracteventdispatcher.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qabstractitemmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qabstractitemmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qabstractstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qabstractstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qabstracttransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qabstracttransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qcoreapplication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qcoreapplication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qcoreevent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qcoreevent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qeasingcurve.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qeasingcurve.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qeventdispatcher_win_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qeventdispatcher_win_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qeventloop.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qeventloop.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qeventtransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qeventtransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfactoryloader_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfactoryloader_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfiledevice.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfiledevice.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfilesystemwatcher_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfilesystemwatcher_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfilesystemwatcher_polling_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfilesystemwatcher_polling_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfilesystemwatcher_win_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfilesystemwatcher_win_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfinalstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfinalstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qfuturewatcher.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qfuturewatcher.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qhistorystate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qhistorystate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qiodevice.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qiodevice.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qlibrary.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qlibrary.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qlocale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qlocale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qmimedata.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qmimedata.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qnamespace.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qnamespace.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qnoncontiguousbytedevice_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qnoncontiguousbytedevice_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qobjectcleanuphandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qobjectcleanuphandler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qpluginloader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qpluginloader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qsavefile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qsavefile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qsettings.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qsharedmemory.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qsharedmemory.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qsignaltransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qsignaltransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qsocketnotifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qsocketnotifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qstate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qstringlistmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qstringlistmodel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qtemporaryfile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qtemporaryfile.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qtextstream_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qtextstream_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qthread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qthread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qthreadpool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qthreadpool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qtimeline.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qtimeline.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qtimer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qtimer.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qtranslator.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qtranslator.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qwindowspipereader_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qwindowspipereader_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qwindowspipewriter_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qwindowspipewriter_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qwineventnotifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qwineventnotifier.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\debug\moc_qwinoverlappedionotifier_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".moc\release\moc_qwinoverlappedionotifier_p.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".rcc\debug\qrc_mimetypes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include=".rcc\release\qrc_mimetypes.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include=".moc\debug\qstatemachine.moc">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\qstatemachine.moc">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="global\qt_pch.h.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include=".moc\debug\qtimer.moc">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\qtimer.moc">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mimetypes\mimetypes.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SOLUTIONDIR)\Qt\src\corelib\Qt5Core_resource.rc" />
+    <ResourceCompile Include="$(SOLUTIONDIR)\Qt\src\corelib\Qt5Cored_resource.rc" />
+  </ItemGroup>
+</Project>
