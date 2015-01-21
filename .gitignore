@@ -81,3 +81,5 @@ $RECYCLE.BIN/
 # Visual Studio
 *.user
 *.lib
+
+/.obj
