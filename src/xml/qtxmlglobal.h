@@ -1,6 +1,6 @@
 /****************************************************************************
 **
-** Copyright (C) 2014 Digia Plc and/or its subsidiary(-ies).
+** Copyright (C) 2012 Intel Corporation.
 ** Contact: http://www.qt-project.org/legal
 **
 ** This file is part of the QtCore module of the Qt Toolkit.
@@ -31,54 +31,23 @@
 **
 ****************************************************************************/
 
-#ifndef QXMLUTILS_P_H
-#define QXMLUTILS_P_H
+#ifndef QTXMLGLOBAL_H
+#define QTXMLGLOBAL_H
 
-//
-//  W A R N I N G
-//  -------------
-//
-// This file is not part of the Qt API.  It exists for the convenience
-// of qapplication_*.cpp, qwidget*.cpp and qfiledialog.cpp.  This header
-// file may change from version to version without notice, or even be removed.
-//
-// We mean it.
-//
-
-#include <QtCore/qstring.h>
+#include <QtCore/qglobal.h>
 
 QT_BEGIN_NAMESPACE
 
-class QString;
-class QChar;
-class QXmlCharRange;
-
-/*!
-  \internal
-  \short This class contains helper functions related to XML, for validating character classes,
-         productions in the XML specification, and so on.
- */
-class Q_CORE_EXPORT QXmlUtils
-{
-public:
-    static bool isEncName(const QString &encName);
-    static bool isChar(const QChar c);
-    static bool isNameChar(const QChar c);
-    static bool isLetter(const QChar c);
-    static bool isNCName(const QStringRef &ncName);
-    static inline bool isNCName(const QString &ncName) { return isNCName(&ncName); }
-    static bool isPublicID(const QString &candidate);
-
-private:
-    typedef const QXmlCharRange *RangeIter;
-    static bool rangeContains(RangeIter begin, RangeIter end, const QChar c);
-    static bool isBaseChar(const QChar c);
-    static bool isDigit(const QChar c);
-    static bool isExtender(const QChar c);
-    static bool isIdeographic(const QChar c);
-    static bool isCombiningChar(const QChar c);
-};
+#ifndef QT_STATIC
+#  if defined(QT_BUILD_XML_LIB)
+#    define Q_XML_EXPORT Q_DECL_EXPORT
+#  else
+#    define Q_XML_EXPORT Q_DECL_IMPORT
+#  endif
+#else
+#  define Q_XML_EXPORT
+#endif
 
 QT_END_NAMESPACE
 
-#endif
+#endif // QTXMLGLOBAL_H

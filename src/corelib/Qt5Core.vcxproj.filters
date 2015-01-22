@@ -754,32 +754,32 @@
     <ClCompile Include="tools\qcollator_win.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="codecs\qsimplecodec.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qgb18030codec.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qjpunicode.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qeucjpcodec.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qjiscodec.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qsjiscodec.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
-    <ClCompile Include="codecs\qeuckrcodec.cpp">
+    <ClCompile Include="codecs\qwindowscodec.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="codecs\qbig5codec.cpp">
-      <Filter>Generated Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="codecs\qwindowscodec.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="codecs\qeucjpcodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qeuckrcodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qgb18030codec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qjiscodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qjpunicode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qsimplecodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="codecs\qsjiscodec.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -1680,26 +1680,26 @@
     <ClInclude Include="xml\qxmlutils_p.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="codecs\qsimplecodec_p.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="codecs\qgb18030codec_p.h">
-      <Filter>Generated Files</Filter>
+    <ClInclude Include="codecs\qbig5codec_p.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="codecs\qeucjpcodec_p.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="codecs\qjiscodec_p.h">
-      <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="codecs\qsjiscodec_p.h">
-      <Filter>Generated Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="codecs\qeuckrcodec_p.h">
-      <Filter>Generated Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="codecs\qbig5codec_p.h">
-      <Filter>Generated Files</Filter>
+    <ClInclude Include="codecs\qgb18030codec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qjiscodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qsimplecodec_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="codecs\qsjiscodec_p.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
