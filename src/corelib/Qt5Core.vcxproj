@@ -23,7 +23,7 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <IntermediateDirectory>.obj\release\</IntermediateDirectory>
     <PrimaryOutput>Qt5Core</PrimaryOutput>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v120_xp</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <OutputDirectory>..\..\lib\</OutputDirectory>
