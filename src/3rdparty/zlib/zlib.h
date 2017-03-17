@@ -39,7 +39,8 @@
 # define ZEXTERN __attribute__((visibility("default")))
 #else
 # undef ZEXTERN
-# define ZEXTERN Q_DECL_EXPORT
+# define ZEXTERN
+//# define ZEXTERN Q_DECL_EXPORT
 #endif
 
 #ifdef __cplusplus

@@ -2007,7 +2007,7 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="$(SOLUTIONDIR)\Qt\src\corelib\Qt5Core_resource.rc" />
-    <ResourceCompile Include="$(SOLUTIONDIR)\Qt\src\corelib\Qt5Cored_resource.rc" />
+    <ResourceCompile Include="$(ProjectDir)\..\..\src\corelib\Qt5Core_resource.rc" />
+    <ResourceCompile Include="$(ProjectDir)\..\..\src\corelib\Qt5Cored_resource.rc" />
   </ItemGroup>
 </Project>
